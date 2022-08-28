@@ -1,8 +1,11 @@
 {
   "name": "0",
   "version": "1.0.0",
-  "description": "### How to run the program * At the root level, run the command `node src/main.js` * Open http://localhost:3000/kanyewest",
+  "description": "Amazing teachings by the one and only KANYE WEST",
   "main": "index.js",
+  "engines": {
+    "node": "12.14.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/main.js",
