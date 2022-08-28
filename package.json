@@ -4,7 +4,9 @@
   "description": "### How to run the program * At the root level, run the command `node src/main.js` * Open http://localhost:3000/kanyewest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +14,8 @@
   "dependencies": {
     "express": "^4.18.1",
     "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }

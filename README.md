@@ -1,5 +1,7 @@
 ## 001-the-teachings-of-kanye-west
 
-### How to run the program
-* At the root level, run the command `node src/main.js`
-* Open http://localhost:3000/kanyewest
+### How to run the program 
+* Navigate to https://tw7-kanye-kuotes.herokuapp.com/ or
+* To run locally, 
+    * run the command `npm run start` or `npm run dev`(for developers)
+    * navigate to http://localhost:3000/kanyewest
